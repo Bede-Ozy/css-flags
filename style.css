@@ -1,0 +1,60 @@
+html{
+    font-size:24px;
+}
+
+body{
+    background-color: beige;
+    padding: 0px;;
+}
+
+#hero-desc{
+    width:80%;
+    height:60px;
+    background-color: azure;
+    padding:15px;
+    margin:0px 10%;
+    border:1px solid #383838;
+    border-radius:10px;
+}
+
+#hero-desc p{
+    font-size:small;
+    margin:0px;
+}
+
+#flagPage{
+    height:100%;
+    width:80%;
+    background-color: azure;
+    margin: 10px 10%;
+    padding:15px;
+    border:1px solid #676767;
+    border-radius:10px;
+}
+
+.continent{
+    padding:10px;
+    border-bottom:1px solid #000;
+}
+
+.con3{
+    width:150px;
+    height:100px;
+    background-color: yellow;
+}
+
+.ng-green{
+    height:100%; 
+    width:30%;
+    background-color: green;
+    margin:0px;
+    display:inline-block;
+}
+
+.ng-white{
+    height:100%; 
+    width:30%;
+    background-color: white;
+    margin:0px;
+    display:inline-block;
+}
