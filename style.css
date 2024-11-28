@@ -40,7 +40,6 @@ body{
 .con3{
     width:150px;
     height:100px;
-    background-color: yellow;
 }
 
 .ng-green{
@@ -48,6 +47,7 @@ body{
     width:30%;
     background-color: green;
     margin:0px;
+    position:relative;
     display:inline-block;
 }
 
@@ -57,4 +57,21 @@ body{
     background-color: white;
     margin:0px;
     display:inline-block;
+    position:relative;
+}
+
+.ng-green p, .ng-white p{
+    text-align: center;
+    position:absolute;
+    width:100%;
+    margin:0;
+    top:35%;
+    color:black;
+}
+
+.ng-green p{
+    color:white;
+}
+.ng-white p{
+    color:green;
 }
