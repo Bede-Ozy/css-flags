@@ -43,7 +43,6 @@ body{
     width:150px;
     height:90px;
     display:inline-block;
-    background-color: red;
     border:1px solid black;
 }
 
@@ -54,6 +53,11 @@ body{
     margin:0px;
     position:relative;
     display:inline-block;
+    right:-6px;
+}
+.ng-green2{
+    right:0;
+    left:-6px;
 }
 
 .ng-white{
@@ -145,9 +149,12 @@ body{
 /* ----------------- CHAD FLAG ----------------- */
 
 .chd-blue, .chd-gold, .chd-red{
-    width:50px;
+    width:30%;
     height:100%;
     display:inline-block;
+    position: relative;
+    margin:0px;
+    padding:0px;
 }
 
 .chd-blue p, .chd-gold p, .chd-red p{
@@ -156,11 +163,12 @@ body{
     padding:0;
     text-align:center;
     color:#fff;
-
+    top:30px;
 }
 
 .chd-blue{
     background-color: blue;
+    left:6px;
 }
 
 .chd-gold{
@@ -169,6 +177,104 @@ body{
 
 .chd-red{
     background-color: red;
+    left:-6px;
 }
 
 /* -------------- MALI FLAG --------------- */
+
+.mal-green, .mal-yellow, .mal-red{
+    width:30%;
+    height:100%;
+    display:inline-block;
+    position: relative;
+    margin:0px;
+    padding:0px;
+}
+
+.mal-green p, .mal-yellow p, .mal-red p{
+    position:relative;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#fff;
+    top: 30px;
+}
+
+.mal-green{
+    background-color: rgb(119, 196, 4);
+    left:6px;
+}
+
+.mal-yellow{
+    background-color: gold;
+}
+
+.mal-red{
+    background-color: red;
+    left:-6px;
+}
+
+/* --------------- SENEGAL FLAG -------------- */
+
+.sen-green, .sen-yellow, .sen-red{
+    width:30%;
+    height:100%;
+    display:inline-block;
+    position: relative;
+    margin:0px;
+    padding:0px;
+}
+
+.sen-green p, .sen-yellow p, .sen-red p{
+    position:relative;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:#fff;
+    top: 30px;
+}
+
+.sen-green{
+    background-color: rgb(71, 118, 0);
+    left:6px;
+}
+
+.sen-yellow{
+    background-color: gold;
+}
+
+.sen-red{
+    background-color: red;
+    left:-6px;
+}
+
+.gui-red, .gui-yellow, .gui-green{
+    width:30%;
+    height:100%;
+    margin:0;
+    padding:0;
+    display:inline-block;
+
+}
+
+.gui-red{
+    background-color: red;
+}
+
+.gui-yellow{
+    background-color: yellow;
+}
+
+.gui-green{
+    background-color: green;
+}
+
+.gui-red p, .gui-green p{
+    text-align: center;
+    color:white;
+}
+
+.gui-yellow p{
+    text-align: center;
+    color: green;
+}
