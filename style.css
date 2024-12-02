@@ -278,3 +278,36 @@ body{
     text-align: center;
     color: green;
 }
+
+/* ---------------- GABON FLAG --------------- */
+
+.gab-green, .gab-yellow, .gab-blue{
+    width:100%;
+    height:30px;
+    margin:0;
+    position:relative;
+}
+
+.gab-green{
+    background-color: green;
+}
+
+.gab-yellow{
+    background-color: yellow;;
+}
+
+.gab-blue{
+    background-color: rgb(64, 156, 199);
+}
+
+.gab{
+    margin-top:10px;
+}
+.gab-green p{
+    text-align: center;
+    position:absolute;
+    width:100%;
+    margin:0;
+    font-size: 20px;
+    color:white;
+}
