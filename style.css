@@ -311,3 +311,40 @@ body{
     font-size: 20px;
     color:white;
 }
+
+/* ---------- SUDAN ---------- */
+
+.sud-green{
+    position:relative;
+    z-index:1; /*z index was used on this part of the flag to place the triangle on top of the other colors on the flag */
+    height:100%;
+    width:40%;
+    background-color: green;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+}
+
+.sud-red, .sud-white, .sud-black{
+    position:relative;
+    height:30px;
+    width:100%;
+    margin:0;
+}
+
+.sud-red{
+    background-color: red;
+    top:-115px;
+}
+
+.sud-red p{
+    text-align: center;
+    color: white;
+    z-index:0;
+}
+.sud-white{
+    background-color: rgb(255, 255, 255);
+    top:-115px;
+}
+.sud-black{
+    background-color: rgb(0, 0, 0);
+    top:-115px;
+}
